@@ -86,6 +86,7 @@
             this.flowLayoutPanel1.Controls.Add(this.button3);
             this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(83, 282);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(448, 26);
@@ -93,34 +94,38 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(356, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(89, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Show a Picture";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(84, 3);
+            this.button2.AutoSize = true;
+            this.button2.Location = new System.Drawing.Point(255, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(95, 23);
             this.button2.TabIndex = 1;
             this.button2.Text = "Clear the Picture";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(165, 3);
+            this.button3.AutoSize = true;
+            this.button3.Location = new System.Drawing.Point(128, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(121, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Set Background Color";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(246, 3);
+            this.button4.AutoSize = true;
+            this.button4.Location = new System.Drawing.Point(47, 3);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
@@ -139,6 +144,7 @@
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
