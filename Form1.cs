@@ -19,7 +19,12 @@ namespace PictureViewer
 
         private void ShowButton_Click(object sender, EventArgs e)
         {
-
+            //show dialog box to user. If user clicks OK
+            //load selected picture into pictureBox.
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Load(openFileDialog1.FileName);
+            }
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
